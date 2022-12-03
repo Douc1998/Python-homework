@@ -66,7 +66,7 @@ def Dynamic_segmentation(bound_list):
 # 多边形poi搜索
 # params: 左下右上边界点数组bound， 存储result的数组
 def get_polygon_data(bound, polygon_result):
-    ak = '48e29785b3909644890a1dbb9b1f7bb4'  # 高德地图API key
+    ak = 'xxxxx'  # 你的高德地图API key
     key_word = '武汉'
     page_size = 20
     page_num = 1
@@ -89,7 +89,7 @@ def get_polygon_data(bound, polygon_result):
 def look_for_Internet_Bar(center, radius, around_result):
     name = center[0]
     location = center[1].split(',')
-    ak = '48e29785b3909644890a1dbb9b1f7bb4'  # 高德地图API key
+    ak = 'xxxxx'  # 你的高德地图API key
     page_size = 20
     page_num = 2
     poi_type = '080308'  # 根据poi码表对应 "网吧"
